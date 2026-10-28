@@ -20,6 +20,8 @@
 
 </div>
 
+English · [Русский](README.ru.md) · [简体中文](README.zh-CN.md) · [Español](README.es.md) · [Português (BR)](README.pt-BR.md) · [日本語](README.ja.md) · [한국어](README.ko.md)
+
 AI video prompts for Kling 3.0, Veo 3, Wan 2.5, Seedance and Runway, written the way the models read them: a timed storyboard (0-2 s, 2-4 s, ...) with one camera move per beat, a lens, a light setup, a sentence of motion physics, three layers of sound and a short negative list, then rendered per model with its length limit, negative-prompt handling and audio support applied. Works for text-to-video and image-to-video. It ships as a Claude Code skill, a Cursor rule and a Codex / `AGENTS.md` snippet, plus a stdlib Python script you can run without any agent.
 
 | **Storyboard first** | **Per-model rendering** | **Vocabulary that works** |
