@@ -1,0 +1,24 @@
+{
+  "title": "Neon rain street",
+  "idea": "a woman waits under a shop awning on a rainy neon street at night and says one line",
+  "mode": "t2v",
+  "duration_s": 8,
+  "aspect": "9:16",
+  "model": "veo",
+  "style": "anamorphic, teal and magenta grade, Kodak 500T grain in the shadows",
+  "subject": "a woman in her thirties in a dark raincoat, wet hair pushed back, holding a closed umbrella",
+  "setting": "a narrow city street at night in heavy rain, neon shop signs reflected in the wet asphalt",
+  "lens": "35mm anamorphic, f/2, oval bokeh",
+  "light": "magenta and cyan neon practicals as key, cool fill from the sky, rim from a passing car",
+  "beats": [
+    {"t": [0, 2], "action": "she stands under the awning watching the rain, neon reflections sliding across her coat", "camera": "slow push-in at eye level, framed waist-up"},
+    {"t": [2, 4], "action": "a car passes, its headlights sweep across her face; she turns to the camera", "camera": "continue the push-in"},
+    {"t": [4, 6], "action": "she says the line, half smiling", "camera": "hold on a medium close-up"},
+    {"t": [6, 8], "action": "she steps out into the rain and opens the umbrella", "camera": "slow tilt up following the umbrella"}
+  ],
+  "physics": "rain falls in straight lines and bounces off the awning edge; her coat is wet and heavy; the umbrella opens with a snap and settles",
+  "sound": {"ambience": "steady rain, tyres on wet asphalt, a distant siren", "fx": "umbrella snapping open", "dialogue": "She says, quietly, lip-synced: \"You're late. Again.\""},
+  "negative": ["morphing", "extra limbs", "warped hands", "flicker", "text", "watermark", "logo", "jump cuts", "frame jitter"],
+  "image_ref": "",
+  "notes": "Vertical framing for Reels. Veo adds 'subtitles, captions' to the negative field because there is dialogue."
+}

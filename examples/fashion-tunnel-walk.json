@@ -1,0 +1,25 @@
+{
+  "title": "Fashion walk through the tunnel",
+  "idea": "a model in a flowing red dress walks towards the camera through a concrete tunnel",
+  "mode": "i2v",
+  "duration_s": 10,
+  "aspect": "9:16",
+  "model": "kling",
+  "style": "editorial fashion film, high contrast, muted concrete tones against saturated red",
+  "subject": "a tall model in a long red silk dress and black boots, hair loose",
+  "setting": "a concrete pedestrian tunnel with strip lights along the ceiling, puddles on the floor",
+  "lens": "35mm, f/2.8",
+  "light": "cold fluorescent strip lights as key from above, warm light at the far end of the tunnel as backlight",
+  "beats": [
+    {"t": [0, 2], "action": "she stands at the far end of the tunnel in silhouette against the warm light, then starts walking", "camera": "locked-off, full body, low angle"},
+    {"t": [2, 4], "action": "she walks towards the camera with a steady stride, the dress trailing", "camera": "slow pull-back ahead of her, matching her pace"},
+    {"t": [4, 6], "action": "the strip lights pass overhead and catch the silk; she looks straight into the lens", "camera": "continue the pull-back"},
+    {"t": [6, 8], "action": "she stops, turns her shoulder and the dress swings around her", "camera": "hold at full body"},
+    {"t": [8, 10], "action": "the dress settles; she holds the pose", "camera": "slow push-in to waist-up"}
+  ],
+  "physics": "silk floats and ripples behind her, slow to settle; boots plant firmly on each step with small splashes in the puddles; hair moves with the head and settles a moment later",
+  "sound": {"ambience": "tunnel echo, distant traffic", "fx": "boot heels on wet concrete, fabric rustle", "dialogue": ""},
+  "negative": ["morphing", "extra limbs", "warped hands", "flicker", "text", "watermark", "logo", "jump cuts", "plastic skin"],
+  "image_ref": "the model standing at the far end of the tunnel, full body, silhouette with the red dress catching light; the dress, boots and tunnel geometry stay as in the image",
+  "notes": "Vertical; 10 s uses five beats with one camera change at 2 s and one at 8 s."
+}

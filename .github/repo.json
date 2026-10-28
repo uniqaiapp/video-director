@@ -1,0 +1,9 @@
+{
+  "name": "video-director",
+  "description": "AI video prompt director for Kling 3.0, Veo 3, Wan, Runway and Seedance: turns a one-line idea into a shot list with camera moves, lens, lighting, duration and model-specific syntax. Claude Code skill + Cursor/Codex rules + prompt templates. Text-to-video and image-to-video. By UniqAI.",
+  "homepage": "https://uniqai.app/video/text-to-video?utm_source=github&utm_medium=readme&utm_campaign=video-director",
+  "topics": ["ai-video", "text-to-video", "image-to-video", "video-prompts", "kling", "veo3", "runway", "seedance", "prompt-engineering", "claude-code", "claude-skills", "agent-skills", "cursor-rules", "uniqai"],
+  "social_preview": "assets/social-preview.png",
+  "default_branch": "main",
+  "features": { "issues": true, "discussions": true, "wiki": false, "projects": false }
+}

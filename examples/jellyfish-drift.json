@@ -1,0 +1,25 @@
+{
+  "title": "Jellyfish drift",
+  "idea": "a jellyfish drifts upward through dark water towards the light",
+  "mode": "t2v",
+  "duration_s": 10,
+  "aspect": "16:9",
+  "model": "seedance",
+  "style": "documentary underwater, deep blue, soft highlights",
+  "subject": "a translucent moon jellyfish with faint pink organs, tentacles trailing",
+  "setting": "open ocean at twenty metres depth, dark below, bright surface above",
+  "lens": "16mm wide, f/4",
+  "light": "caustic light patterns from the surface, blue falloff into darkness below, the jellyfish lit from above",
+  "beats": [
+    {"t": [0, 2], "action": "the jellyfish pulses once in the dark, tentacles trailing", "camera": "slow drift upward from below, slight roll"},
+    {"t": [2, 4], "action": "it pulses again and rises; tiny particles drift past", "camera": "continue the drift, orbiting slightly to the left"},
+    {"t": [4, 6], "action": "caustic light from the surface starts to ripple across its bell", "camera": "continue"},
+    {"t": [6, 8], "action": "a small school of silver fish passes in the background", "camera": "rack focus briefly to the fish, then back"},
+    {"t": [8, 10], "action": "the jellyfish reaches the bright water and glows; hold", "camera": "hold, slow drift"}
+  ],
+  "physics": "everything moves slowly with drag; the bell contracts then relaxes with a lag in the tentacles; bubbles rise; particles drift in the water column",
+  "sound": {"ambience": "muffled underwater hum, bubbles", "fx": "", "dialogue": ""},
+  "negative": ["morphing", "flicker", "text", "watermark", "jump cuts", "duplicate jellyfish", "cartoon"],
+  "image_ref": "",
+  "notes": ""
+}

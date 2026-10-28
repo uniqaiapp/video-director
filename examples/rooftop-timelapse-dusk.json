@@ -1,0 +1,24 @@
+{
+  "title": "Rooftop timelapse at dusk",
+  "idea": "timelapse from a rooftop as the city goes from dusk to night",
+  "mode": "t2v",
+  "duration_s": 12,
+  "aspect": "16:9",
+  "model": "generic",
+  "style": "clean digital cinema, blue hour palette shifting to warm sodium and LED",
+  "subject": "a dense city skyline with a river, a bridge and traffic on the embankment",
+  "setting": "a rooftop terrace with a low parapet in the foreground, late evening",
+  "lens": "24mm wide, deep focus",
+  "light": "blue hour sky as key fading to night; building windows and street lights switching on",
+  "beats": [
+    {"t": [0, 3], "action": "timelapse: clouds streak across a deep blue sky, the last orange on the horizon fades", "camera": "locked-off wide, parapet in the lower third"},
+    {"t": [3, 6], "action": "windows light up across the skyline one block at a time", "camera": "very slow push-in"},
+    {"t": [6, 9], "action": "traffic on the bridge becomes streaks of red and white", "camera": "continue the push-in"},
+    {"t": [9, 12], "action": "full night; the river reflects the lights; a plane crosses the sky", "camera": "hold"}
+  ],
+  "physics": "timelapse motion: clouds streak, shadows sweep, traffic blurs into streaks; the buildings stay perfectly still",
+  "sound": {"ambience": "distant city hum, wind on the rooftop", "fx": "", "dialogue": ""},
+  "negative": ["morphing", "flicker", "text", "watermark", "jump cuts", "warped architecture", "bent lines"],
+  "image_ref": "",
+  "notes": "12 s needs a multi-shot or long-clip model; the check command flags the length on Veo, Wan and Runway."
+}

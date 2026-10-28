@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions and ideas
+    url: https://github.com/uniqaiapp/video-director/discussions
+    about: Ask how to storyboard something or share a prompt that worked.
+  - name: Email
+    url: mailto:support@uniqai.app
+    about: Anything that should not be public.

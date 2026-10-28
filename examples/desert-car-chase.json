@@ -1,0 +1,25 @@
+{
+  "title": "Desert car chase",
+  "idea": "a vintage muscle car races across a desert road chased by a dust cloud",
+  "mode": "t2v",
+  "duration_s": 10,
+  "aspect": "16:9",
+  "model": "kling",
+  "style": "70s road movie, bleached highlights, heavy 35mm grain, slight halation",
+  "subject": "a dusty black 1970 muscle car with chrome bumpers, driver barely visible through the glare",
+  "setting": "a straight two-lane desert highway at midday, heat shimmer, mesas on the horizon",
+  "lens": "200mm telephoto for the opening, compressed background",
+  "light": "hard midday sun from directly above, deep black shadows under the car, heat shimmer on the road",
+  "beats": [
+    {"t": [0, 2], "action": "the car approaches head-on through heat shimmer, a dust cloud rising behind it", "camera": "locked-off low angle on the road, telephoto"},
+    {"t": [2, 4], "action": "the car roars past the camera, dust and gravel spraying", "camera": "whip pan to follow it"},
+    {"t": [4, 6], "action": "the car from the side at speed, the mesas sliding by", "camera": "tracking shot alongside at wheel height"},
+    {"t": [6, 8], "action": "the driver's hand shifts gear; the car lurches forward", "camera": "cut to an interior over-the-shoulder shot"},
+    {"t": [8, 10], "action": "the car shrinks into the distance, the dust settles on the empty road", "camera": "locked-off wide from behind, hold"}
+  ],
+  "physics": "the car squats under acceleration and leans in the pass; wheels spin with motion blur; dust and gravel are thrown backwards and settle slowly; heat shimmer distorts the far road",
+  "sound": {"ambience": "desert wind, insects", "fx": "V8 engine roar building and passing, gravel spray, a gear change", "dialogue": ""},
+  "negative": ["morphing", "warped wheels", "flicker", "text", "watermark", "logo", "frame jitter", "extra cars"],
+  "image_ref": "",
+  "notes": "Multi-shot on purpose: Kling 3.0 follows the cut at 6 s. On single-shot models (Veo, Wan, Runway) the check command warns about beat 4; drop the interior beat for those. 21:9 would suit the genre, but Kling offers 16:9, 9:16 and 1:1."
+}

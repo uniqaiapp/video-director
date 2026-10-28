@@ -1,0 +1,24 @@
+{
+  "title": "Sci-fi corridor reveal",
+  "idea": "a lone engineer walks down a dark spaceship corridor and a door opens onto a planet",
+  "mode": "t2v",
+  "duration_s": 8,
+  "aspect": "16:9",
+  "model": "veo",
+  "style": "hard sci-fi, cold palette with a single warm accent, volumetric haze, anamorphic flares",
+  "subject": "a female engineer in a worn grey jumpsuit with a tool belt, short hair, carrying a handheld scanner",
+  "setting": "a long, dim spaceship corridor with ribbed metal walls, thin haze in the air",
+  "lens": "24mm anamorphic, deep focus, horizontal flares",
+  "light": "cold blue strip lights along the floor as key, a warm orange glow leaking from the door at the end",
+  "beats": [
+    {"t": [0, 2], "action": "she walks away from the camera down the corridor, boots echoing, scanner light sweeping the walls", "camera": "following shot from behind at shoulder height"},
+    {"t": [2, 4], "action": "the door at the end slides open with a hiss and warm light floods the corridor", "camera": "continue following, the warm light growing"},
+    {"t": [4, 6], "action": "she stops in the doorway; beyond it a vast orange planet fills the sky", "camera": "slow push past her shoulder towards the view"},
+    {"t": [6, 8], "action": "she lowers the scanner and stares; dust drifts in the light", "camera": "hold, framing her silhouette against the planet"}
+  ],
+  "physics": "haze swirls as she passes; the door moves on a mechanical track at constant speed; dust catches the light and drifts slowly; her boots land with weight",
+  "sound": {"ambience": "low ship hum, ventilation", "fx": "boots on metal, the door hiss, a soft rising tone as the light floods in", "dialogue": ""},
+  "negative": ["morphing", "extra limbs", "warped hands", "flicker", "text", "watermark", "logo", "jump cuts", "cartoon"],
+  "image_ref": "",
+  "notes": "Light change is the beat: the warm door light is the only event the model needs to get right."
+}

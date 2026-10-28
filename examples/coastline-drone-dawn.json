@@ -1,0 +1,25 @@
+{
+  "title": "Coastline drone at dawn",
+  "idea": "drone flight along a rocky coastline at dawn",
+  "mode": "t2v",
+  "duration_s": 10,
+  "aspect": "16:9",
+  "model": "wan",
+  "style": "clean digital cinema, natural colour, slight warm grade",
+  "subject": "a rocky coastline with white surf and a single lighthouse",
+  "setting": "the Atlantic coast at dawn, low mist over the water",
+  "lens": "24mm wide, deep focus",
+  "light": "low golden sun from the left, long shadows on the rocks",
+  "beats": [
+    {"t": [0, 2], "action": "aerial view over the surf, the coast ahead", "camera": "aerial, slow forward drift"},
+    {"t": [2, 4], "action": "the lighthouse appears on the headland", "camera": "continue forward, slight tilt down"},
+    {"t": [4, 6], "action": "waves break white against the rocks below", "camera": "continue forward"},
+    {"t": [6, 8], "action": "the drone passes the lighthouse on its left", "camera": "slow pan right to keep it in frame"},
+    {"t": [8, 10], "action": "open sea beyond, the sun clears the mist", "camera": "hold, drifting forward"}
+  ],
+  "physics": "waves roll and break at real speed; mist drifts slowly; parallax between rocks and horizon",
+  "sound": {"ambience": "wind, surf below", "fx": "", "dialogue": ""},
+  "negative": ["morphing", "flicker", "text", "watermark", "jump cuts", "frame jitter"],
+  "image_ref": "",
+  "notes": "Written for Wan's 800-character prompt field: short beats, no style paragraph."
+}

@@ -1,0 +1,24 @@
+{
+  "title": "Candle confession",
+  "idea": "an old man at a candlelit table says one sentence to someone off-screen",
+  "mode": "t2v",
+  "duration_s": 8,
+  "aspect": "16:9",
+  "model": "veo",
+  "style": "period drama, Rembrandt lighting, warm low-key, fine grain",
+  "subject": "an old man with a white beard and a lined face, wearing a dark wool coat, hands folded on the table",
+  "setting": "a farmhouse kitchen at night, a single candle on a wooden table, the rest of the room in shadow",
+  "lens": "85mm, f/2, shallow depth of field",
+  "light": "candlelight as the only source, warm flicker, Rembrandt triangle on the far cheek, rapid falloff into darkness",
+  "beats": [
+    {"t": [0, 2], "action": "he stares at the candle, the flame reflected in his eyes, breathing slowly", "camera": "locked-off medium close-up"},
+    {"t": [2, 4], "action": "he looks up at someone off-screen to the right", "camera": "slow push-in"},
+    {"t": [4, 7], "action": "he says the line, slowly, and his hands tighten", "camera": "continue the push-in to a close-up"},
+    {"t": [7, 8], "action": "he looks back down at the flame; it flickers", "camera": "hold"}
+  ],
+  "physics": "the flame flickers and the light on his face flickers with it; natural micro-movements, breathing, a slow blink; hands tighten with visible tendons",
+  "sound": {"ambience": "quiet room, wind outside, a clock ticking", "fx": "the candle flame guttering", "dialogue": "The old man says, slowly, lip-synced: \"I never told her it was me.\""},
+  "negative": ["morphing", "extra limbs", "warped hands", "flicker", "text", "watermark", "logo", "jump cuts", "plastic skin"],
+  "image_ref": "",
+  "notes": "'flicker' in the negative list refers to exposure flicker; the candle flicker is described in the light and physics fields, which models separate well."
+}

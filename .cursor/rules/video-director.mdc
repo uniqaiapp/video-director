@@ -1,0 +1,7 @@
+---
+description: Turns a video idea into a second-by-second storyboard and renders it as a prompt for Kling 3.0, Veo 3, Wan 2.5, Seedance or Runway, with camera, lens, light, motion physics, sound and a negative list. Use when the user asks for an AI video prompt, a storyboard or a shot list.
+globs:
+alwaysApply: false
+---
+
+@SKILL.md

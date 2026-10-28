@@ -1,0 +1,23 @@
+{
+  "title": "Cat at the rainy window",
+  "idea": "a tabby cat watches rain on a window, then turns to the camera",
+  "mode": "t2v",
+  "duration_s": 5,
+  "aspect": "16:9",
+  "model": "seedance",
+  "style": "soft, warm, slightly desaturated, 35mm film grain",
+  "subject": "a grey tabby cat with green eyes, fur slightly backlit",
+  "setting": "a window sill in a quiet apartment on a rainy afternoon, raindrops running down the glass",
+  "lens": "85mm, f/2, shallow depth of field",
+  "light": "soft overcast daylight through the window as key, warm lamp fill from inside the room",
+  "beats": [
+    {"t": [0, 2], "action": "the cat sits on the sill watching raindrops run down the glass, tail curled", "camera": "locked-off, medium shot from inside the room"},
+    {"t": [2, 4], "action": "its ear twitches; it turns its head slowly towards the camera", "camera": "slow push-in"},
+    {"t": [4, 5], "action": "it blinks once and holds the look", "camera": "hold on a close-up"}
+  ],
+  "physics": "fur ripples slightly as the head turns; the tail settles after a small flick; raindrops merge and run at real speed",
+  "sound": {"ambience": "rain tapping on glass, quiet room tone", "fx": "", "dialogue": ""},
+  "negative": ["morphing", "extra limbs", "flicker", "text", "watermark", "jump cuts", "duplicate cat"],
+  "image_ref": "",
+  "notes": ""
+}

@@ -1,0 +1,23 @@
+{
+  "title": "Ramen steam macro",
+  "idea": "macro shot of a bowl of ramen as chopsticks lift the noodles",
+  "mode": "t2v",
+  "duration_s": 5,
+  "aspect": "9:16",
+  "model": "wan",
+  "style": "warm food-film look, rich colour",
+  "subject": "a bowl of tonkotsu ramen with a soft egg, chopsticks lifting noodles",
+  "setting": "a dark wooden counter in a small ramen shop",
+  "lens": "100mm macro, f/4, shallow depth of field",
+  "light": "warm pendant lamp as key from above, steam backlit",
+  "beats": [
+    {"t": [0, 2], "action": "steam rises off the broth, chopsticks dip in", "camera": "locked-off, 45 degrees above the bowl"},
+    {"t": [2, 4], "action": "the chopsticks lift a tangle of noodles, broth dripping", "camera": "slow tilt up following the noodles"},
+    {"t": [4, 5], "action": "the noodles hang and drip; steam curls through the light", "camera": "hold"}
+  ],
+  "physics": "steam rises and curls; broth drips at real speed; noodles sag with weight",
+  "sound": {"ambience": "small shop, broth simmering", "fx": "chopsticks on ceramic, a drip", "dialogue": ""},
+  "negative": ["morphing", "warped hands", "flicker", "text", "watermark", "jump cuts"],
+  "image_ref": "",
+  "notes": "Vertical; kept under Wan's 800-character limit."
+}

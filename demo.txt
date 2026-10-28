@@ -1,0 +1,19 @@
+$ python3 scripts/storyboard.py check examples/desert-car-chase.json --model veo
+! WARN   Veo 3 / 3.1: 10s is not an available length (4/6/8 s); nearest is 8s,
+!        re-time the beats
+! WARN   Veo 3 / 3.1 is single-shot: beat 4 asks for a cut, which it cannot do;
+!        merge it into the previous beat or change the angle gradually
++ OK     desert-car-chase.json: 5 beats, 10s, 2 warning(s) for Veo 3 / 3.1
+@wait 700
+$ python3 scripts/storyboard.py render examples/latte-art-dawn.json --model kling
+> {b:# Latte art at dawn - Kling 3.0 (8s, 16:9, t2v)}
+> A barista in a grey apron, sleeves rolled, steady hands holding a steel milk
+> jug in an empty cafe at dawn, a wooden counter lit by low sun through the front
+> window. Kodak 250D look, warm highlights, muted shadows, fine grain. 100mm
+> macro, f/4, shallow depth of field. Low golden sun as key from camera-right,
+> soft bounce fill, steam backlit. 0-2s: The milk jug tilts and a thin white
+> stream hits the brown crema. Camera: locked-off, top-down on the cup. 2-4s:
+> {d:... three more beats, then Motion: ... and Audio: ambience, sound effects}
+> NEGATIVE PROMPT:
+> {y:morphing, extra limbs, warped hands, flicker, text, watermark, logo, jump cuts}
+# NOTE: paste the negative list into Kling's separate negative prompt field

@@ -1,0 +1,23 @@
+{
+  "title": "Sneaker turntable",
+  "idea": "product shot of a white sneaker rotating on a turntable",
+  "mode": "i2v",
+  "duration_s": 5,
+  "aspect": "1:1",
+  "model": "runway",
+  "style": "clean high-key commercial look, neutral colour",
+  "subject": "a white leather sneaker with a gum sole, laces tied, pristine",
+  "setting": "a seamless light-grey studio backdrop, slow gradient to white",
+  "lens": "50mm, f/5.6, product in sharp focus",
+  "light": "three-point studio lighting, large softbox key from the upper left, soft rim from behind, controlled specular highlights on the leather",
+  "beats": [
+    {"t": [0, 2], "action": "the sneaker sits on a matte turntable, three-quarter view, and begins to rotate", "camera": "slow 90-degree orbit, clockwise, at shoe height"},
+    {"t": [2, 4], "action": "the rotation reveals the side profile and the stitching", "camera": "continue the orbit"},
+    {"t": [4, 5], "action": "the shoe comes to rest facing the camera", "camera": "hold"}
+  ],
+  "physics": "rigid object; reflections on the leather slide smoothly as it rotates; no deformation; the turntable motion is constant",
+  "sound": {"ambience": "", "fx": "soft whoosh on the reveal", "dialogue": ""},
+  "negative": ["morphing", "warped shape", "flicker", "text", "watermark", "logo", "extra shoes"],
+  "image_ref": "the same white sneaker, three-quarter view on a light-grey backdrop; the shape, colour and laces stay exactly as in the image",
+  "notes": "Runway drops the negative list and the sound block; both are kept here for the edit."
+}

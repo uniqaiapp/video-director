@@ -1,0 +1,24 @@
+{
+  "title": "Latte art at dawn",
+  "idea": "a barista pours latte art at dawn in an empty cafe",
+  "mode": "t2v",
+  "duration_s": 8,
+  "aspect": "16:9",
+  "model": "kling",
+  "style": "Kodak 250D look, warm highlights, muted shadows, fine grain",
+  "subject": "a barista in a grey apron, sleeves rolled, steady hands holding a steel milk jug",
+  "setting": "an empty cafe at dawn, a wooden counter lit by low sun through the front window",
+  "lens": "100mm macro, f/4, shallow depth of field",
+  "light": "low golden sun as key from camera-right, soft bounce fill, steam backlit",
+  "beats": [
+    {"t": [0, 2], "action": "the milk jug tilts and a thin white stream hits the brown crema", "camera": "locked-off, top-down on the cup"},
+    {"t": [2, 4], "action": "the stream wobbles side to side and a white heart forms on the surface", "camera": "slow push-in on the cup"},
+    {"t": [4, 6], "action": "the jug lifts and draws a thin line through the heart", "camera": "continue the push-in"},
+    {"t": [6, 8], "action": "the barista sets the jug down; steam rises off the cup", "camera": "hold"}
+  ],
+  "physics": "milk pours in a steady column and ripples on contact; steam rises and curls; the jug has weight and lands with a small tap",
+  "sound": {"ambience": "quiet cafe, espresso machine idling", "fx": "milk pouring, a ceramic tap as the jug lands", "dialogue": ""},
+  "negative": ["morphing", "extra limbs", "warped hands", "flicker", "text", "watermark", "logo", "jump cuts"],
+  "image_ref": "",
+  "notes": "Good first test for any model: one subject, one light, one liquid."
+}
