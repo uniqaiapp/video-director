@@ -47,7 +47,7 @@ MODELS = {
         "negative_max": 2500,
         "modes": ["t2v", "i2v"],
         "multishot": True,
-        "uniqai": "https://uniqai.app/models/kling/?" + UTM,
+        "uniqai": "https://uniqai.app/models/kling?" + UTM,
         "uniqai_note": "UniqAI runs Kling 3.0 at 5 s or 8 s in 16:9, 9:16 or 1:1, from text or a photo.",
     },
     "veo": {
@@ -61,7 +61,7 @@ MODELS = {
         "negative_max": None,
         "modes": ["t2v", "i2v"],
         "multishot": False,
-        "uniqai": "https://uniqai.app/models/veo/?" + UTM,
+        "uniqai": "https://uniqai.app/models/veo?" + UTM,
         "uniqai_note": "UniqAI runs Veo 3 at 6 s or 8 s with audio, in 16:9 or 9:16, from text or a photo.",
     },
     "wan": {
@@ -75,7 +75,7 @@ MODELS = {
         "negative_max": 500,
         "modes": ["t2v", "i2v"],
         "multishot": False,
-        "uniqai": "https://uniqai.app/video/text-to-video/?" + UTM,
+        "uniqai": "https://uniqai.app/video/text-to-video?" + UTM,
         "uniqai_note": "UniqAI runs Wan 2.5 next to Kling 3.0 and Veo 3, so one storyboard can be compared across models.",
     },
     "seedance": {

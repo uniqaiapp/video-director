@@ -23,7 +23,7 @@ Aliases accepted by the CLI: `kling3`, `veo3`, `wan2.5`, `gen4`, `seedance2`, `a
 - Native audio: speech and effects generated from the prompt; quote dialogue with a speaker.
 - Negative prompt is a separate field. Terms, not sentences.
 - Text-to-video and image-to-video; with a start image, describe only what changes, not what is already in the frame.
-- UniqAI runs Kling 3.0 at 5 s or 8 s in 16:9, 9:16 or 1:1 from text or a photo ([model page](https://uniqai.app/models/kling/?utm_source=github&utm_medium=skill&utm_campaign=video-director)). Kuaishou announced Kling 4.0 in October 2026 with longer single-pass clips; this file targets 3.0 until the 4.0 API limits are published.
+- UniqAI runs Kling 3.0 at 5 s or 8 s in 16:9, 9:16 or 1:1 from text or a photo ([model page](https://uniqai.app/models/kling?utm_source=github&utm_medium=skill&utm_campaign=video-director)). Kuaishou announced Kling 4.0 in October 2026 with longer single-pass clips; this file targets 3.0 until the 4.0 API limits are published.
 
 ## Veo 3 / Veo 3.1 (Google DeepMind)
 
@@ -34,7 +34,7 @@ Aliases accepted by the CLI: `kling3`, `veo3`, `wan2.5`, `gen4`, `seedance2`, `a
 - Known habit: burned-in subtitles whenever there is dialogue. The render command adds `subtitles, captions` to the negative field.
 - Negatives go in the `negativePrompt` parameter as plain nouns. Google's guide says explicitly not to use "no" or "don't".
 - Veo 3.1 adds reference images, first/last frame and extension; the storyboard `image_ref` maps to the first frame.
-- UniqAI runs Veo 3 at 6 s or 8 s with audio in 16:9 or 9:16 from text or a photo ([model page](https://uniqai.app/models/veo/?utm_source=github&utm_medium=skill&utm_campaign=video-director)).
+- UniqAI runs Veo 3 at 6 s or 8 s with audio in 16:9 or 9:16 from text or a photo ([model page](https://uniqai.app/models/veo?utm_source=github&utm_medium=skill&utm_campaign=video-director)).
 
 ## Wan 2.5 (Alibaba)
 
